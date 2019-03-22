@@ -142,7 +142,7 @@ print("Nice! You are " + "%d" %int(age))
     # Execute this script again and tap out anything that's not a number!
     # Well, you may have seen that it caused an error, an ValueError for
     # int() on the print(). What can we do?  We learned how to convert things
-    # above, so let's do it : (execute the script again)
+    # above, so let's do it : (execute the script again if the terminal shows you an eror)
 option = input("Press enter to continue: ")
 age = int(input("Now we convert: Tap out your age here: "))
 print("Nice! You are " + "%d" %age)
